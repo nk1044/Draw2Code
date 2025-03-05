@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      <h1 className='text-2xl'>Excalidraw Example</h1>
-      <div className='w-full h-screen'>
+      <div className='w-full h-screen flex flex-col justify-center items-center bg-neutral-950 text-neutral-300'>
+      <h1 className='text-2xl text-center font-bold'>Excalidraw Canvas</h1>
         <Excalidraw />
       </div>
     </>
